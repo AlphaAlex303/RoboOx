@@ -4,6 +4,7 @@ import com.pathplanner.lib.commands.PathPlannerAuto;
 
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
+import frc.subsystems.driveSubsystem;
 
 
 public class OI {
@@ -18,7 +19,7 @@ public class OI {
 
 
     private void configureBindings() {
-       
+       driveSubsystem.setDefaultCommand(new LeftTrackControl(driveController.getLeftY()))
 
     }
 

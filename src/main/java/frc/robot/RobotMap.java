@@ -4,13 +4,7 @@ package frc.robot;
  * define Hardware Ports and CAN id's in here
  */
 public class RobotMap {
-    //Drivetrain Motor Ports
+    public static int LeftMotorPWMPort = 1;
+    public static int RightMotorPWMPort = 2;
 
-    //Drivetrain CAN id's
-
-    //Other Motor Ports
-
-    //Other CAN id's
-
-    
 }
