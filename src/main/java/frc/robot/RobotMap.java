@@ -5,6 +5,6 @@ package frc.robot;
  */
 public class RobotMap {
     public static int LeftMotorPWMPort = 1;
-    public static int RightMotorPWMPort = 2;
+    public static int RightMotorPWMPort = 0;
 
 }
