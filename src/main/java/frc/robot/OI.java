@@ -20,6 +20,7 @@ public class OI {
 
     private void configureBindings() {
        driveSubsystem.setDefaultCommand(new LeftTrackControl(driveController.getLeftY()))
+       driveSubsystem.setDefaultCommand(new RightTrackControl(driveController.getRightY()))
 
     }
 
