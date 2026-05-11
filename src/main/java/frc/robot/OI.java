@@ -13,8 +13,7 @@ public class OI {
     //Define controller ports | DO NOT TOUCH |
     final CommandXboxController driveController = new CommandXboxController(0);
 
-    //Define all subsystems using "IntakeSubsystem IntakeSubsystem = new IntakeSubsystem();"
-    //IntakeSubsystem IntakeSubsystem = new IntakeSubsystem();
+    //Define all subsystems
     final driveSubsystem driveSubsystem = new driveSubsystem();
     //Creates Bindings for controllers
     public OI() {
