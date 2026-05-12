@@ -159,7 +159,7 @@ The complete RoboOx engineering portfolio and design documentation includes:
 
 <p align="center">
 
-[📘 View Full Design Portfolio](INSERT_PORTFOLIO_LINK_HERE)
+[📘 View Full Design Portfolio](https://docs.google.com/document/d/1owoSUTfkQ201PdIp94K_mcxk6YMVcUhR7jEPtZckalA/edit?usp=sharing)
 
 </p>
 
