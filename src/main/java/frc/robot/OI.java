@@ -23,10 +23,9 @@ public class OI {
     private void configureBindings() {
         driveSubsystem.setDefaultCommand(new driveCommand(driveSubsystem, ()-> (driveController.getLeftY() * -RobotMap.MaxSpeed), ()-> (driveController.getRightY() * RobotMap.MaxSpeed)));
     }
+    
     public Command getAutonomousCommand() {
         // AUTOS not PATHS in path planner should be called here
         return new PathPlannerAuto("AutoName");
     }
-
-
 }
